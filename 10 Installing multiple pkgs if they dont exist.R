@@ -1,6 +1,6 @@
 requiredPackages = c('caret', 'e1071','broom',
-                     'tidyverse', 'lubridate','mice', 
-                     'prophet', 'zoo', 'forecast')
+                     'tidyverse', 'lubridate','mice', 'magrittr'
+                     'prophet', 'zoo', 'forecast', 'xts')
 for(p in requiredPackages)
 {
   if(!require(p,character.only = TRUE)) 
