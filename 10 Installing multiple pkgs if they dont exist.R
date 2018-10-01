@@ -1,4 +1,4 @@
-requiredPackages = c('caret', 'e1071',
+requiredPackages = c('caret', 'e1071','broom',
                      'tidyverse', 'lubridate','mice', 
                      'prophet', 'zoo', 'forecast')
 for(p in requiredPackages)
